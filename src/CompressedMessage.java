@@ -1,5 +1,5 @@
 class CompressedMessage implements Message {
-    private Message message;
+    private final Message message;
 
     public CompressedMessage(Message message) {
         this.message = message;
