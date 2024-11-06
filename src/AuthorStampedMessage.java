@@ -1,7 +1,7 @@
 
 
 class AuthorStampedMessage implements Message {
-    private Message message;
+    private final Message message;
 
     public AuthorStampedMessage(Message message) {
         this.message = message;

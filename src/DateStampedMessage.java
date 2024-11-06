@@ -2,7 +2,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 class DateStampedMessage implements Message {
-    private Message message;
+    private final Message message;
 
     public DateStampedMessage(Message message) {
         this.message = message;

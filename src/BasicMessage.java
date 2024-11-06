@@ -1,5 +1,5 @@
 class BasicMessage implements Message {
-    private String text;
+    private final String text;
 
     public BasicMessage(String text) {
         this.text = text;

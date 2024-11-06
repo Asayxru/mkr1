@@ -1,5 +1,5 @@
 class EncryptedMessage implements Message {
-    private Message message;
+    private final Message message;
 
     public EncryptedMessage(Message message) {
         this.message = message;
