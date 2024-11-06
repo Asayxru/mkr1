@@ -6,6 +6,9 @@ public class Main {
         Message message = new BasicMessage("  Привіт,   як  справи?   ");
         System.out.println("Basic Message: " + message.getText());
 
+        message = new CompressedMessage(message);
+        System.out.println("Compressed Message: " + message.getText());
+
         message = new EncryptedMessage(message);
         System.out.println("Encrypted: " + message.getText());
 
